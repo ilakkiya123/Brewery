@@ -6,3 +6,10 @@ const getBrewery = async () => {
   const data = await response.json();
   console.log(data);
 }
+
+// const VerifyEmail = async () => {
+
+//     const respopnse = await fetch(`${verifyURL}${inpElement.value}`);
+//     const data=await response.json();
+//     console.log(data);
+//   }
